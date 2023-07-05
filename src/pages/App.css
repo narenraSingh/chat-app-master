@@ -1,0 +1,69 @@
+.messageContainer {
+  height: 65vh;
+  overflow: scroll;
+  overflow-x: hidden;
+
+  /*scroll bar hide*/
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-items: flex-end;*/
+  /*  align-items: flex-start;*/
+}
+
+.messageCard {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  /* align-items: flex-end*/
+}
+
+.messageFooter {
+  font-size: xx-small;
+  float: right;
+}
+/*contact items */
+
+.chats {
+  /*height: 74vh;*/
+  overflow: scroll;
+  overflow-x: hidden;
+
+  /*scroll bar hide*/
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.userChat {
+  /*padding: 10px;*/
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+  cursor: pointer;
+}
+
+.userChat:hover {
+  background-color: rgb(213, 213, 213);
+  border-radius: 20%;
+}
+
+.userChat img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.userChatInfo span {
+  font-size: smaller;
+  font-weight: 700;
+  color: rgb(49, 49, 49);
+}
+
+.userChatInfo p {
+  font-size: x-small;
+  color: rgb(49, 49, 49);
+}
